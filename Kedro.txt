@@ -1,0 +1,33 @@
+Create a new Python virtual environment, called kedro-environment, using conda:
+
+conda create --name kedro-environment python=3.7 -y
+
+To activate it:
+conda activate kedro-environment
+
+To exit kedro-environment:
+conda deactivate
+
+Install pipenv as follows:
+
+pip install pipenv
+
+Create a directory for the virtual environment and change to that directory:
+
+mkdir kedro-environment && cd kedro-environment
+
+Once all the dependencies are installed, to start a session with the correct virtual environment activated:
+
+pipenv shell
+
+To exit the shell session:
+
+exit
+
+To install Kedro from the Python Package Index (PyPI), simply run:
+
+pip install kedro
+
+To check that Kedro is installed:
+
+kedro info
